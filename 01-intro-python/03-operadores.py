@@ -9,8 +9,8 @@ media=(nota1 + nota2 + nota3)/ 3
 # e elevado a 2
 # 10 elevado a 3
 numero = 10
-numero-elevado-2= numero * numero
-nemero-elevado-3= nuero * numero * numero
+numero_elevado_2= numero * numero
+nemero_elevado_3= numero * numero * numero
 
 #operadores lógicos
 # and, or, not
@@ -36,15 +36,15 @@ print(not False)#True
 #permitir entrada
 # - adm
 
-usuario-funcionario = True
-usuario-bloqueado = False
-hora-atual = 17
-usuario-adm = False
+usuario_funcionario = True
+usuario_bloqueado = False
+hora_atual = 17
+usuario_adm = False
 
-horario-comercial = hora-atual >= 8 and hora-atual <= 18
-funcionario-ativo = usuario-funcionario and not usuario-bloqueado
+horario_comercial = hora_atual >= 8 and hora_atual <= 18
+funcionario_ativo = usuario_funcionario and not usuario_bloqueado
 
-if usuario-adm or (funcionario-ativo and horario-comercial)
+if usuario_adm or (funcionario_ativo and horario_comercial)
    print('acesso permitido')
 
 
@@ -86,9 +86,9 @@ print (b is c)#True
 # str, list, tuple
 opcoes = ('sim', 'não', 'talvez')
 opcao = input('digite uma opção')
-opcao: in opcoes
+opcao in opcoes
 if opcao in opcoes:
-print('ok')
+    print('ok')
 else:
     print('nao tem essa opcao')
 
