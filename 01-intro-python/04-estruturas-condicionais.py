@@ -96,3 +96,46 @@ if dia in dias:
 for chave in dias.keys():
     print(chave)
 
+#operador ternário
+
+idade = 12,0
+#status pode ser maior ou menor
+#status=?
+
+if idade >= 18:
+    status='maior'
+else:
+    status='menor'
+  #utilizando o operador
+status = 'maior' if idade >= 18 else 'menor'    
+
+#match
+  #é o switch do python
+dia = 3
+
+match dia:
+        case 1:
+             print('Domingo')
+        case 2:
+            print('Segunda')
+        case 3:
+            print('Terça')
+        case 4:
+            print('Quarta')
+        case 5:
+            print('Quinta')
+        case 6:
+            print('Sexta')
+        case 7:
+            print('Sábado')
+        case _:
+            print('Inválido')
+
+match dia:
+    case 1 | 7:
+        print('Fim de semana')
+    case 2 | 3 | 4 | 5 | 6:
+        print('Dia de semana')
+
+
+
